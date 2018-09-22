@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-restfulapi",
+  "version": "0.0.1",
+  "description": "NodeJs Restful API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bankjirapan/NodeJs-RestfulAPI.git"
+  },
+  "author": "Jirapan Yankhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bankjirapan/NodeJs-RestfulAPI/issues"
+  },
+  "homepage": "https://github.com/bankjirapan/NodeJs-RestfulAPI#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
