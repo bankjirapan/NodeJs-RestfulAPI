@@ -16,7 +16,7 @@ const setupRoutes = (app) => {
 }
 
 
-const createApp =  {
+const runApp =  {
 
     setup: () => {
  
@@ -42,10 +42,10 @@ const createApp =  {
             res.json(json);
         });
 
-        app.listen(config.port, () => console.log('App listening on http://localhost:' + config.port));
+        app.listen(configApp.port, () => console.log('App listening on http://localhost:' + config.port));
     }
 
 
 };
 
-export default createApp;
+export default runApp;
