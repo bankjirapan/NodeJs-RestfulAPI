@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bankjirapan/NodeJs-RestfulAPI#readme",
   "dependencies": {
+    "bcrypt": "^3.0.1",
     "express": "^4.16.3",
     "request": "^2.88.0"
   }
