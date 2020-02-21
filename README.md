@@ -10,5 +10,11 @@ this is repo is a simple nodejs project for initial
 2. ``npm install``
 3. Create database 
 4. Edit config database in folder config/database
-5. ``npm run dev`` for development and no
-
+5. Create file .babelrc in the root project
+6. Copy below code to .bablrc and save
+```
+{
+    "presets": ["env"]
+}
+```
+ุ6. ``npm run dev`` for development or ``npm start` for production
