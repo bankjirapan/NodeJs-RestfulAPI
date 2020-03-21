@@ -40,4 +40,4 @@ const sequelize = new Sequelize('databasename','username','password',{
     "presets": ["env"]
 }
 ```
-6. ``npm run dev`` for development or ``npm start` for production
+6. ``npm run dev`` for development or ``npm start`` for production
